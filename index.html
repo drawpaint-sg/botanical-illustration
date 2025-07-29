@@ -143,20 +143,27 @@
 }
 
 @media (max-width: 768px) {
+    .hero {
+        padding: 0;
+        min-height: 100svh;
+        display: flex;
+        align-items: center;
+        padding-top: max(80px, env(safe-area-inset-top));
+    }
+    
+    .hero-content {
+        padding: 60px 0;
+    }
+    
     .hero-text h1 {
         font-size: 1.8rem;
         line-height: 1.1;
         padding: 0 10px;
-        margin-top: 40px;
-    }
-    
-    .hero {
-        padding: 140px 0 100px;
-        min-height: 100vh;
+        margin-top: 0;
     }
     
     .hero-text {
-        padding-top: 20px;
+        padding-top: 0;
     }
 }
 
