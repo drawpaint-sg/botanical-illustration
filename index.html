@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -73,12 +74,12 @@
             border-bottom: 1px solid rgba(45, 74, 62, 0.1);
         }
 
-        .nav {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 15px 0;
-        }
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;  /* Changed from 15px to 10px */
+}
 
         .logo {
             font-family: 'Playfair Display', serif;
@@ -148,11 +149,11 @@
         min-height: 100svh;
         display: flex;
         align-items: center;
-        padding-top: max(80px, env(safe-area-inset-top));
+        padding-top: max(70px, env(safe-area-inset-top));
     }
     
     .hero-content {
-        padding: 60px 0;
+        padding: 80px 0;
     }
     
     .hero-text h1 {
@@ -160,7 +161,13 @@
         line-height: 1.1;
         padding: 0 10px;
         margin-top: 0;
+        margin-bottom: 35px;
     }
+    
+    .hero-text {
+        padding-top: 0;
+    }
+}
     
     .hero-text {
         padding-top: 0;
@@ -1561,7 +1568,7 @@
         <div class="container">
             <div class="section-header animate-on-scroll">
                 <h2 class="section-title">Start Your Botanical Art Journey</h2>
-                <p class="section-subtitle">Master botanical illustration with our comprehensive 6-week program</p>
+                <p class="section-subtitle">Master botanical illustration with our comprehensive 10-week program</p>
             </div>
             <div class="pricing-cards">
                 <div class="pricing-card trial animate-on-scroll">
